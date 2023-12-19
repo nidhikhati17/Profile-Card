@@ -1,0 +1,144 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1:hover{
+    color:crimson
+  }
+  p:hover{
+    color:gold
+  }
+  .card{
+    height: 80%;
+    width: 25%;
+    background: whitesmoke;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 20px lightgray;
+  }
+  
+  .arrow{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+
+  .arrow:hover{
+    color: chartreuse;
+    display: flex;
+  }
+  
+  .dots{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: flex-end; */
+    padding-right: 10px;
+  }
+  
+  .dots:hover{
+    color:chartreuse;
+  }
+  
+  .img{
+    /* height: 100vh;
+    width: 100%; */
+    /* border: 10px solid beige;
+    border-radius: 50%;
+    position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+    /* object-fit: cover; */
+  }
+  
+  .img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid white;
+  }
+
+  .img:hover{
+    transform: scale(0.8);
+    transition: all 1s;
+    filter: grayscale(100%);
+}
+  
+  .tags{
+    justify-content: space-around;
+    align-items: center;
+    display: flex
+  }
+
+  .tags:hover{
+    color:aliceblue;
+  }
+  
+  .button1{
+    height: 50px;
+    width: 150px;
+    box-shadow: 2px 2px 50px wheat;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .button1:hover {
+    background-color:rgb(223, 132, 12);
+    color: white;
+  }
+  
+  .button2{
+    height: 50px;
+    width: 150px;
+    box-shadow: 2px 2px 50px wheat;
+    border-radius: 10px;
+    border: none;
+  }
+  .button2:hover {
+    background-color: rgb(223, 132, 12);
+    color: white;
+  }
+  
+  .button{
+    border: none;
+    color: white;
+    text-align: center;
+    /* text-decoration: none; */
+    justify-content:space-around;
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 15px 32px;
+    align-items: center;
+    display: flex;
+  }
+  
+  .lcs{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    
+  }
+  
+  .fa-regular{
+    border-right: 2px solid black;
+    box-shadow: 2px 2px 2px grey;
+    padding: 0px 20px;
+    height: 20px; 
+  }
+
+  .fa-regular:hover{
+    color:deepskyblue
+  }
+  .fa-light:hover{
+    color:deepskyblue
+  }
